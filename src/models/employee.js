@@ -60,4 +60,5 @@ Department.hasMany(Employee, {
   as: 'employees',
 })
 
+Employee.sync()
 module.exports = Employee

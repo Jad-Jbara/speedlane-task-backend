@@ -16,4 +16,6 @@ const Department = sequelize.define('Department', {
   timestamps: false,
 })
 
+Department.sync()
+
 module.exports = Department
